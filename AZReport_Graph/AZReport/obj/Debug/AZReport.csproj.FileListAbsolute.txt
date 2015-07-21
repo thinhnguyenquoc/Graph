@@ -1,0 +1,179 @@
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\AZReport.exe.config
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\AZDb.mdf
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\AZDb_log.ldf
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\AZReport.exe
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\AZReport.pdb
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\EntityFramework.dll
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\Ninject.dll
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\NPOI.dll
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\NPOI.OOXML.dll
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\EntityFramework.xml
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\Ninject.xml
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\NPOI.xml
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\NPOI.OOXML.xml
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\obj\Debug\AZReport.csprojResolveAssemblyReference.cache
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\obj\Debug\AZReport.Form1.resources
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\obj\Debug\AZReport.Properties.Resources.resources
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\obj\Debug\AZReport.csproj.GenerateResource.Cache
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\obj\Debug\AZReport.exe
+C:\Users\thinh\Documents\Visual Studio 2012\Projects\AZReport\AZReport\obj\Debug\AZReport.pdb
+E:\AZReport\AZReport\bin\Debug\AZReport.exe.config
+E:\AZReport\AZReport\obj\Debug\AZReport.exe
+E:\AZReport\AZReport\obj\Debug\AZReport.pdb
+E:\AZReport\AZReport\bin\Debug\AZReport.exe
+E:\AZReport\AZReport\bin\Debug\AZReport.pdb
+E:\AZReport\AZReport\bin\Debug\EntityFramework.dll
+E:\AZReport\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\AZReport\AZReport\bin\Debug\Ninject.dll
+E:\AZReport\AZReport\bin\Debug\NPOI.dll
+E:\AZReport\AZReport\bin\Debug\NPOI.OOXML.dll
+E:\AZReport\AZReport\bin\Debug\NPOI.OpenXml4Net.dll
+E:\AZReport\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\AZReport\AZReport\bin\Debug\EntityFramework.xml
+E:\AZReport\AZReport\bin\Debug\Ninject.xml
+E:\AZReport\AZReport\bin\Debug\NPOI.xml
+E:\AZReport\AZReport\bin\Debug\NPOI.OOXML.xml
+E:\AZReport\AZReport\bin\Debug\NPOI.OpenXml4Net.xml
+E:\AZReport\AZReport\obj\Debug\AZReport.Form1.resources
+E:\AZReport\AZReport\obj\Debug\AZReport.Properties.Resources.resources
+E:\AZReport\AZReport\obj\Debug\AZReport.csproj.GenerateResource.Cache
+H:\AZReport\AZReport\obj\Debug\AZReport.Form1.resources
+H:\AZReport\AZReport\obj\Debug\AZReport.Properties.Resources.resources
+H:\AZReport\AZReport\obj\Debug\AZReport.csproj.GenerateResource.Cache
+H:\AZReport\AZReport\bin\Debug\AZReport.exe.config
+H:\AZReport\AZReport\bin\Debug\AZReport.exe
+H:\AZReport\AZReport\bin\Debug\AZReport.pdb
+H:\AZReport\AZReport\bin\Debug\EntityFramework.dll
+H:\AZReport\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll
+H:\AZReport\AZReport\bin\Debug\Ninject.dll
+H:\AZReport\AZReport\bin\Debug\NPOI.dll
+H:\AZReport\AZReport\bin\Debug\NPOI.OOXML.dll
+H:\AZReport\AZReport\bin\Debug\NPOI.OpenXml4Net.dll
+H:\AZReport\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll
+H:\AZReport\AZReport\bin\Debug\EntityFramework.xml
+H:\AZReport\AZReport\bin\Debug\Ninject.xml
+H:\AZReport\AZReport\bin\Debug\NPOI.xml
+H:\AZReport\AZReport\bin\Debug\NPOI.OOXML.xml
+H:\AZReport\AZReport\bin\Debug\NPOI.OpenXml4Net.xml
+H:\AZReport\AZReport\obj\Debug\AZReport.exe
+H:\AZReport\AZReport\obj\Debug\AZReport.pdb
+E:\AZReport\AZReport\obj\Debug\AZReport.SuccessForm.resources
+E:\AZReport\AZReport\obj\Debug\AZReport.ErrorForm.resources
+H:\AZReport\AZReport\obj\Debug\AZReport.ErrorForm.resources
+H:\AZReport\AZReport\obj\Debug\AZReport.SuccessForm.resources
+H:\AZReport\AZReport\bin\Debug\TemplateEfficiency.xlsx
+H:\AZReport\AZReport\obj\Debug\AZReport.csprojResolveAssemblyReference.cache
+E:\AZReport\AZReport\bin\Debug\TemplateEfficiency.xlsx
+E:\AZReport\AZReport\bin\Debug\azshop.ico
+E:\AZReport\AZReport\obj\Debug\AZReport.csprojResolveAssemblyReference.cache
+D:\clone\ExportTool\AZReport\AZReport\bin\Debug\AZReport.exe.config
+D:\clone\ExportTool\AZReport\AZReport\obj\Debug\AZReport.exe
+D:\clone\ExportTool\AZReport\AZReport\obj\Debug\AZReport.pdb
+D:\win 7\share\AZReport\AZReport\bin\Debug\AZReport.exe.config
+D:\win 7\share\AZReport\AZReport\obj\Debug\AZReport.exe
+D:\win 7\share\AZReport\AZReport\obj\Debug\AZReport.pdb
+D:\win 7\share\AZReport\AZReport\bin\Debug\azshop.ico
+D:\win 7\share\AZReport\AZReport\bin\Debug\TemplateEfficiency.xlsx
+D:\win 7\share\AZReport\AZReport\bin\Debug\AZReport.exe
+D:\win 7\share\AZReport\AZReport\bin\Debug\AZReport.pdb
+D:\win 7\share\AZReport\AZReport\bin\Debug\EntityFramework.dll
+D:\win 7\share\AZReport\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\win 7\share\AZReport\AZReport\bin\Debug\Ninject.dll
+D:\win 7\share\AZReport\AZReport\bin\Debug\NPOI.dll
+D:\win 7\share\AZReport\AZReport\bin\Debug\NPOI.OOXML.dll
+D:\win 7\share\AZReport\AZReport\bin\Debug\NPOI.OpenXml4Net.dll
+D:\win 7\share\AZReport\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\win 7\share\AZReport\AZReport\bin\Debug\EntityFramework.xml
+D:\win 7\share\AZReport\AZReport\bin\Debug\Ninject.xml
+D:\win 7\share\AZReport\AZReport\bin\Debug\NPOI.xml
+D:\win 7\share\AZReport\AZReport\bin\Debug\NPOI.OOXML.xml
+D:\win 7\share\AZReport\AZReport\bin\Debug\NPOI.OpenXml4Net.xml
+D:\win 7\share\AZReport\AZReport\obj\Debug\AZReport.csprojResolveAssemblyReference.cache
+D:\win 7\share\AZReport\AZReport\obj\Debug\AZReport.ErrorForm.resources
+D:\win 7\share\AZReport\AZReport\obj\Debug\AZReport.Form1.resources
+D:\win 7\share\AZReport\AZReport\obj\Debug\AZReport.Properties.Resources.resources
+D:\win 7\share\AZReport\AZReport\obj\Debug\AZReport.SuccessForm.resources
+D:\win 7\share\AZReport\AZReport\obj\Debug\AZReport.csproj.GenerateResource.Cache
+E:\AZReport_compact\AZReport\bin\Debug\AZReport.exe.config
+E:\AZReport_compact\AZReport\obj\Debug\AZReport.exe
+E:\AZReport_compact\AZReport\obj\Debug\AZReport.pdb
+D:\AZReport_compact\AZReport\bin\Debug\AZReport.exe.config
+D:\AZReport_compact\AZReport\bin\Debug\azshop.ico
+D:\AZReport_compact\AZReport\bin\Debug\TemplateEfficiency.xlsx
+D:\AZReport_compact\AZReport\bin\Debug\AZReport.exe
+D:\AZReport_compact\AZReport\bin\Debug\AZReport.pdb
+D:\AZReport_compact\AZReport\bin\Debug\EntityFramework.dll
+D:\AZReport_compact\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\AZReport_compact\AZReport\bin\Debug\Ninject.dll
+D:\AZReport_compact\AZReport\bin\Debug\NPOI.dll
+D:\AZReport_compact\AZReport\bin\Debug\NPOI.OOXML.dll
+D:\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXml4Net.dll
+D:\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\AZReport_compact\AZReport\bin\Debug\EntityFramework.xml
+D:\AZReport_compact\AZReport\bin\Debug\Ninject.xml
+D:\AZReport_compact\AZReport\bin\Debug\NPOI.xml
+D:\AZReport_compact\AZReport\bin\Debug\NPOI.OOXML.xml
+D:\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXml4Net.xml
+D:\AZReport_compact\AZReport\obj\Debug\AZReport.ErrorForm.resources
+D:\AZReport_compact\AZReport\obj\Debug\AZReport.Form1.resources
+D:\AZReport_compact\AZReport\obj\Debug\AZReport.Properties.Resources.resources
+D:\AZReport_compact\AZReport\obj\Debug\AZReport.SuccessForm.resources
+D:\AZReport_compact\AZReport\obj\Debug\AZReport.csproj.GenerateResource.Cache
+D:\AZReport_compact\AZReport\obj\Debug\AZReport.exe
+D:\AZReport_compact\AZReport\obj\Debug\AZReport.pdb
+D:\AZReport_compact\AZReport\obj\Debug\AZReport.csprojResolveAssemblyReference.cache
+F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.exe.config
+F:\share\AZReport_compact\AZReport\obj\Debug\AZReport.exe
+F:\share\AZReport_compact\AZReport\obj\Debug\AZReport.pdb
+F:\share\AZReport_compact\AZReport\bin\Debug\azshop.ico
+F:\share\AZReport_compact\AZReport\bin\Debug\TemplateEfficiency.xlsx
+F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.exe
+F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.pdb
+F:\share\AZReport_compact\AZReport\bin\Debug\EntityFramework.dll
+F:\share\AZReport_compact\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\share\AZReport_compact\AZReport\bin\Debug\Ninject.dll
+F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.dll
+F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OOXML.dll
+F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXml4Net.dll
+F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll
+F:\share\AZReport_compact\AZReport\bin\Debug\EntityFramework.xml
+F:\share\AZReport_compact\AZReport\bin\Debug\Ninject.xml
+F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.xml
+F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OOXML.xml
+F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXml4Net.xml
+F:\share\AZReport_compact\AZReport\obj\Debug\AZReport.csprojResolveAssemblyReference.cache
+F:\share\AZReport_compact\AZReport\obj\Debug\AZReport.ErrorForm.resources
+F:\share\AZReport_compact\AZReport\obj\Debug\AZReport.Form1.resources
+F:\share\AZReport_compact\AZReport\obj\Debug\AZReport.Properties.Resources.resources
+F:\share\AZReport_compact\AZReport\obj\Debug\AZReport.SuccessForm.resources
+F:\share\AZReport_compact\AZReport\obj\Debug\AZReport.csproj.GenerateResource.Cache
+D:\New season\AZReport_Graph\AZReport\bin\Debug\azshop.ico
+D:\New season\AZReport_Graph\AZReport\bin\Debug\TemplateEfficiency.xlsx
+D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.exe.config
+D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.exe
+D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.pdb
+D:\New season\AZReport_Graph\AZReport\bin\Debug\EntityFramework.dll
+D:\New season\AZReport_Graph\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\New season\AZReport_Graph\AZReport\bin\Debug\Ninject.dll
+D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.dll
+D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OOXML.dll
+D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OpenXml4Net.dll
+D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\New season\AZReport_Graph\AZReport\bin\Debug\EntityFramework.xml
+D:\New season\AZReport_Graph\AZReport\bin\Debug\Ninject.xml
+D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.xml
+D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OOXML.xml
+D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OpenXml4Net.xml
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.ErrorForm.resources
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.Form1.resources
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.Properties.Resources.resources
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.SuccessForm.resources
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.csproj.GenerateResource.Cache
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.exe
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.pdb
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.csprojResolveAssemblyReference.cache
+D:\New season\AZReport_Graph\AZReport\obj\Debug\AZReport.Graph.resources

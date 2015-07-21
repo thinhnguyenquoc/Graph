@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="AZModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="AZModelContainer" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetProductivity" ReturnType="Collection(AZModel.GetProductivity_Result)">
+      <Parameter Name="param1" Mode="In" Type="DateTime" />
+      <Parameter Name="param2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetReport" ReturnType="Collection(AZModel.GetReport_Result)">
+      <Parameter Name="param1" Mode="In" Type="DateTime" />
+      <Parameter Name="param2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTotalFrequency" ReturnType="Collection(AZModel.GetTotalFrequency_Result)">
+      <Parameter Name="param1" Mode="In" Type="DateTime" />
+      <Parameter Name="param2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTotalQuantity" ReturnType="Collection(AZModel.GetTotalQuantity_Result)">
+      <Parameter Name="param1" Mode="In" Type="DateTime" />
+      <Parameter Name="param2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTotalTime" ReturnType="Collection(AZModel.GetTotalTime_Result)">
+      <Parameter Name="param1" Mode="In" Type="DateTime" />
+      <Parameter Name="param2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <EntitySet Name="Levels" EntityType="AZModel.Level" />
+    <EntitySet Name="Programs" EntityType="AZModel.Program" />
+    <EntitySet Name="Sales" EntityType="AZModel.Sale" />
+    <EntitySet Name="Schedules" EntityType="AZModel.Schedule" />
+  </EntityContainer>
+  <ComplexType Name="GetProductivity_Result">
+    <Property Type="String" Name="Code" Nullable="true" />
+    <Property Type="String" Name="Name" Nullable="true" />
+    <Property Type="String" Name="Note" Nullable="true" />
+    <Property Type="String" Name="Category" Nullable="true" />
+    <Property Type="String" Name="Duration" Nullable="true" />
+    <Property Type="String" Name="Price" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetReport_Result">
+    <Property Type="String" Name="code" Nullable="false" />
+    <Property Type="Int32" Name="freq" Nullable="true" />
+    <Property Type="DateTime" Name="Duration" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ScheduleDate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="Quantity" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTotalFrequency_Result">
+    <Property Type="String" Name="Code" Nullable="false" />
+    <Property Type="DateTime" Name="Date" Nullable="true" />
+    <Property Type="Int32" Name="Freq" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTotalQuantity_Result">
+    <Property Type="String" Name="Code" Nullable="false" />
+    <Property Type="Int32" Name="Quantity" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTotalTime_Result">
+    <Property Type="String" Name="code" Nullable="true" />
+    <Property Type="String" Name="Name" Nullable="true" />
+    <Property Type="Int32" Name="freq" Nullable="true" />
+    <Property Type="DateTime" Name="Duration" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Category" Nullable="true" />
+    <Property Type="String" Name="Price" Nullable="true" />
+    <Property Type="String" Name="Note" Nullable="true" />
+    <Property Type="String" Name="Quantity" Nullable="true" />
+    <Property Type="DateTime" Name="Date" Nullable="false" Precision="23" />
+  </ComplexType>
+  <EntityType Name="Level">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Begin" Type="Int32" />
+    <Property Name="End" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Program">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Category" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Duration" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Quantity" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Schedule">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+</Schema>

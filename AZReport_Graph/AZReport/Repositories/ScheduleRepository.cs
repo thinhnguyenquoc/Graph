@@ -1,0 +1,24 @@
+﻿using AZReport.Model;
+using AZReport.Repositories.Interface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace AZReport.Repositories
+{
+    public class ScheduleRepository : GenericRepository<Schedule>, IScheduleRepository
+    {
+        public ScheduleRepository(AZModelContainer context)
+            : base(context)
+        {
+
+        }
+
+        public override IEnumerable<Schedule> GetAll()
+        {
+            return _entities.Set<Schedule>().AsEnumerable();
+        }
+     
+    }
+}
