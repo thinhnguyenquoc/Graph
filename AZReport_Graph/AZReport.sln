@@ -1,14 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AZReport", "AZReport\AZReport.csproj", "{3E6B57A3-EC9B-47FD-93F6-2DE641DF5D3A}"
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "SetupAZReport", "SetupAZReport\SetupAZReport.isproj", "{CE73EA0F-D3FA-44EC-99CD-E04EF88F33B1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3E6B57A3-EC9B-47FD-93F6-2DE641DF5D3A} = {3E6B57A3-EC9B-47FD-93F6-2DE641DF5D3A}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

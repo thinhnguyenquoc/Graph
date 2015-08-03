@@ -16,5 +16,6 @@ namespace AZReport.Model
     {
         public int Id { get; set; }
         public DateTime time { get; set; }
+        public DateTime UpdateDate { get; set; }
     }
 }

@@ -28,10 +28,5 @@
 		</TaggedOutputs> -->
 	</ItemGroup>
 	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2013Limited\InstallShield.targets"/>
-	<ItemGroup>
-		<ProjectReference Include="..\AZReport\AZReport.csproj">
-			<Name>AZReport</Name>
-			<Project>{3E6B57A3-EC9B-47FD-93F6-2DE641DF5D3A}</Project>
-		</ProjectReference>
-	</ItemGroup>
+	<ItemGroup/>
 </Project>

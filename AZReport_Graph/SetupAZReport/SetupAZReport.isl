@@ -52,7 +52,7 @@
 	<summary>
 		<codepage>1252</codepage>
 		<title>Installation Database</title>
-		<subject/>
+		<subject></subject>
 		<author>##ID_STRING2##</author>
 		<keywords>Installer,MSI,Database</keywords>
 		<comments>Contact:  Your local administrator</comments>
@@ -339,17 +339,17 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>AZReport.Primary_output</td><td>{4E8185A9-D32C-4FE0-8F9C-F8D88DD4AB60}</td><td>THINHNGUYEN</td><td>2</td><td/><td>azreport.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>AZReport.exe</td><td>{20DFFD5E-6932-46FB-B251-A2B077E9541C}</td><td>THINHNGUYEN</td><td>2</td><td/><td>azreport.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>AZReport.vshost.exe</td><td>{458A207B-C212-4947-BE5F-BF00EC555B4D}</td><td>THINHNGUYEN</td><td>2</td><td/><td>azreport.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>EntityFramework.dll</td><td>{EB390397-9F82-4FC8-87E8-FF25111DDCBA}</td><td>THINHNGUYEN</td><td>2</td><td/><td>entityframework.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ICSharpCode.SharpZipLib.dll</td><td>{D461FF6D-20C1-4682-A503-ECE8F766CCDC}</td><td>THINHNGUYEN</td><td>2</td><td/><td>icsharpcode.sharpziplib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AZReport.exe</td><td>{327B26B1-CF95-4903-A6A8-DD8E8FB05814}</td><td>DEBUG</td><td>2</td><td/><td>azreport.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AZReport.vshost.exe</td><td>{EE9376C0-92E2-44C2-B327-611A6B423E6A}</td><td>DEBUG</td><td>2</td><td/><td>azreport.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>EntityFramework.dll</td><td>{D8FCE619-A7D7-4893-B3F9-E05E23C79BC1}</td><td>DEBUG</td><td>2</td><td/><td>entityframework.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ICSharpCode.SharpZipLib.dll</td><td>{262141B4-1F57-4858-8DC3-FD46690BD070}</td><td>DEBUG</td><td>2</td><td/><td>icsharpcode.sharpziplib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{949E5EF7-7C10-4E35-B580-56750F16349D}</td><td>THINHNGUYEN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>NPOI.OOXML.dll</td><td>{84172934-3DFF-40A9-9BB4-A8E550E500E4}</td><td>THINHNGUYEN</td><td>2</td><td/><td>npoi.ooxml.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>NPOI.OpenXml4Net.dll</td><td>{E8DB0525-9EBB-4FED-B506-43C580B333F4}</td><td>THINHNGUYEN</td><td>2</td><td/><td>npoi.openxml4net.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>NPOI.OpenXmlFormats.dll</td><td>{F7E6DAFB-E229-4777-A20D-F773C109FEFC}</td><td>THINHNGUYEN</td><td>2</td><td/><td>npoi.openxmlformats.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>NPOI.dll</td><td>{4F6DDF34-C8ED-4063-B60D-9842992F5656}</td><td>THINHNGUYEN</td><td>2</td><td/><td>npoi.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Ninject.dll</td><td>{9189AAA5-3678-4D20-939F-9F650F4FFBFE}</td><td>THINHNGUYEN</td><td>2</td><td/><td>ninject.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{981981E6-F101-4909-8AA6-F7A2E8C0B7D4}</td><td>DEBUG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NPOI.OOXML.dll</td><td>{D3D66D3B-D837-46BF-ACE8-7F7F38607312}</td><td>DEBUG</td><td>2</td><td/><td>npoi.ooxml.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NPOI.OpenXml4Net.dll</td><td>{6F514C76-31D1-4BE9-AEB3-E62A9D60A8EF}</td><td>DEBUG</td><td>2</td><td/><td>npoi.openxml4net.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NPOI.OpenXmlFormats.dll</td><td>{D835DBF8-872D-4DD5-B423-99B5F35D9C17}</td><td>DEBUG</td><td>2</td><td/><td>npoi.openxmlformats.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NPOI.dll</td><td>{062E9865-6FA4-4F3B-896C-AF2422910DA2}</td><td>DEBUG</td><td>2</td><td/><td>npoi.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Ninject.dll</td><td>{CBEA8BE2-59BF-4B41-B805-C0D41DB1FE1D}</td><td>DEBUG</td><td>2</td><td/><td>ninject.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1058,6 +1058,7 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>THINHNGUYEN</td><td>ISX_DEFAULTCOMPONENT</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1143,6 +1144,7 @@
 		<row><td>CommonFiles64Folder</td><td>TARGETDIR</td><td>.:Common64</td><td/><td>0</td><td/></row>
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
 		<row><td>DATABASEDIR</td><td>ISYourDataBaseDir</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>DEBUG</td><td>INSTALLDIR</td><td>Debug</td><td/><td>0</td><td/></row>
 		<row><td>DesktopFolder</td><td>TARGETDIR</td><td>.:Desktop</td><td/><td>3</td><td/></row>
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
@@ -1869,12 +1871,12 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
-		<row><td>AlwaysInstall</td><td>AZReport.Primary_output</td></row>
 		<row><td>AlwaysInstall</td><td>AZReport.exe</td></row>
 		<row><td>AlwaysInstall</td><td>AZReport.vshost.exe</td></row>
 		<row><td>AlwaysInstall</td><td>EntityFramework.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ICSharpCode.SharpZipLib.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>NPOI.OOXML.dll</td></row>
 		<row><td>AlwaysInstall</td><td>NPOI.OpenXml4Net.dll</td></row>
 		<row><td>AlwaysInstall</td><td>NPOI.OpenXmlFormats.dll</td></row>
@@ -1894,28 +1896,27 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>azdb.sdf</td><td>ISX_DEFAULTCOMPONENT</td><td>AZDb.sdf</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\AZDb.sdf</td><td>1</td><td/></row>
-		<row><td>azreport.exe</td><td>AZReport.exe</td><td>AZReport.exe</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.exe</td><td>1</td><td/></row>
-		<row><td>azreport.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>AZREPO~1.CON|AZReport.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.exe.config</td><td>1</td><td/></row>
-		<row><td>azreport.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>AZReport.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.pdb</td><td>1</td><td/></row>
-		<row><td>azreport.primary_output</td><td>AZReport.Primary_output</td><td>AZReport.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;AZReport&gt;|Built</td><td>3</td><td/></row>
-		<row><td>azreport.vshost.exe</td><td>AZReport.vshost.exe</td><td>AZREPO~1.EXE|AZReport.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.vshost.exe</td><td>1</td><td/></row>
-		<row><td>azreport.vshost.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>AZREPO~1.CON|AZReport.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.vshost.exe.config</td><td>1</td><td/></row>
-		<row><td>azreport.vshost.exe.manifest</td><td>ISX_DEFAULTCOMPONENT</td><td>AZREPO~1.MAN|AZReport.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\AZReport.vshost.exe.manifest</td><td>1</td><td/></row>
-		<row><td>azshop.ico</td><td>ISX_DEFAULTCOMPONENT</td><td>azshop.ico</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\azshop.ico</td><td>1</td><td/></row>
-		<row><td>entityframework.dll</td><td>EntityFramework.dll</td><td>ENTITY~1.DLL|EntityFramework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\EntityFramework.dll</td><td>1</td><td/></row>
-		<row><td>entityframework.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>ENTITY~1.XML|EntityFramework.xml</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\EntityFramework.xml</td><td>1</td><td/></row>
-		<row><td>icsharpcode.sharpziplib.dll</td><td>ICSharpCode.SharpZipLib.dll</td><td>ICSHAR~1.DLL|ICSharpCode.SharpZipLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll</td><td>1</td><td/></row>
-		<row><td>ninject.dll</td><td>Ninject.dll</td><td>Ninject.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\Ninject.dll</td><td>1</td><td/></row>
-		<row><td>ninject.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>Ninject.xml</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\Ninject.xml</td><td>1</td><td/></row>
-		<row><td>npoi.dll</td><td>NPOI.dll</td><td>NPOI.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.dll</td><td>1</td><td/></row>
-		<row><td>npoi.ooxml.dll</td><td>NPOI.OOXML.dll</td><td>NPOIOO~1.DLL|NPOI.OOXML.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OOXML.dll</td><td>1</td><td/></row>
-		<row><td>npoi.ooxml.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>NPOIOO~1.XML|NPOI.OOXML.xml</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OOXML.xml</td><td>1</td><td/></row>
-		<row><td>npoi.openxml4net.dll</td><td>NPOI.OpenXml4Net.dll</td><td>NPOIOP~1.DLL|NPOI.OpenXml4Net.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXml4Net.dll</td><td>1</td><td/></row>
-		<row><td>npoi.openxml4net.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>NPOIOP~1.XML|NPOI.OpenXml4Net.xml</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXml4Net.xml</td><td>1</td><td/></row>
-		<row><td>npoi.openxmlformats.dll</td><td>NPOI.OpenXmlFormats.dll</td><td>NPOIOP~1.DLL|NPOI.OpenXmlFormats.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll</td><td>1</td><td/></row>
-		<row><td>npoi.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>NPOI.xml</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\NPOI.xml</td><td>1</td><td/></row>
-		<row><td>templateefficiency.xlsx</td><td>ISX_DEFAULTCOMPONENT</td><td>TEMPLA~1.XLS|TemplateEfficiency.xlsx</td><td>0</td><td/><td/><td/><td>1</td><td>F:\share\AZReport_compact\AZReport\bin\Debug\TemplateEfficiency.xlsx</td><td>1</td><td/></row>
+		<row><td>azdb.sdf</td><td>ISX_DEFAULTCOMPONENT1</td><td>AZDb.sdf</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\AZDb.sdf</td><td>1</td><td/></row>
+		<row><td>azreport.exe</td><td>AZReport.exe</td><td>AZReport.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.exe</td><td>1</td><td/></row>
+		<row><td>azreport.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>AZREPO~1.CON|AZReport.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.exe.config</td><td>1</td><td/></row>
+		<row><td>azreport.pdb</td><td>ISX_DEFAULTCOMPONENT1</td><td>AZReport.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.pdb</td><td>1</td><td/></row>
+		<row><td>azreport.vshost.exe</td><td>AZReport.vshost.exe</td><td>AZREPO~1.EXE|AZReport.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.vshost.exe</td><td>1</td><td/></row>
+		<row><td>azreport.vshost.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>AZREPO~1.CON|AZReport.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.vshost.exe.config</td><td>1</td><td/></row>
+		<row><td>azreport.vshost.exe.manifest</td><td>ISX_DEFAULTCOMPONENT1</td><td>AZREPO~1.MAN|AZReport.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\AZReport.vshost.exe.manifest</td><td>1</td><td/></row>
+		<row><td>azshop.ico</td><td>ISX_DEFAULTCOMPONENT1</td><td>azshop.ico</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\azshop.ico</td><td>1</td><td/></row>
+		<row><td>entityframework.dll</td><td>EntityFramework.dll</td><td>ENTITY~1.DLL|EntityFramework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\EntityFramework.dll</td><td>1</td><td/></row>
+		<row><td>entityframework.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>ENTITY~1.XML|EntityFramework.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\EntityFramework.xml</td><td>1</td><td/></row>
+		<row><td>icsharpcode.sharpziplib.dll</td><td>ICSharpCode.SharpZipLib.dll</td><td>ICSHAR~1.DLL|ICSharpCode.SharpZipLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\ICSharpCode.SharpZipLib.dll</td><td>1</td><td/></row>
+		<row><td>ninject.dll</td><td>Ninject.dll</td><td>Ninject.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\Ninject.dll</td><td>1</td><td/></row>
+		<row><td>ninject.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>Ninject.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\Ninject.xml</td><td>1</td><td/></row>
+		<row><td>npoi.dll</td><td>NPOI.dll</td><td>NPOI.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.dll</td><td>1</td><td/></row>
+		<row><td>npoi.ooxml.dll</td><td>NPOI.OOXML.dll</td><td>NPOIOO~1.DLL|NPOI.OOXML.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OOXML.dll</td><td>1</td><td/></row>
+		<row><td>npoi.ooxml.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>NPOIOO~1.XML|NPOI.OOXML.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OOXML.xml</td><td>1</td><td/></row>
+		<row><td>npoi.openxml4net.dll</td><td>NPOI.OpenXml4Net.dll</td><td>NPOIOP~1.DLL|NPOI.OpenXml4Net.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OpenXml4Net.dll</td><td>1</td><td/></row>
+		<row><td>npoi.openxml4net.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>NPOIOP~1.XML|NPOI.OpenXml4Net.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OpenXml4Net.xml</td><td>1</td><td/></row>
+		<row><td>npoi.openxmlformats.dll</td><td>NPOI.OpenXmlFormats.dll</td><td>NPOIOP~1.DLL|NPOI.OpenXmlFormats.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.OpenXmlFormats.dll</td><td>1</td><td/></row>
+		<row><td>npoi.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>NPOI.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\NPOI.xml</td><td>1</td><td/></row>
+		<row><td>templateefficiency.xlsx</td><td>ISX_DEFAULTCOMPONENT1</td><td>TEMPLA~1.XLS|TemplateEfficiency.xlsx</td><td>0</td><td/><td/><td/><td>1</td><td>D:\New season\AZReport_Graph\AZReport\bin\Debug\TemplateEfficiency.xlsx</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -1931,6 +1932,7 @@
 	<table name="ISAssistantTag">
 		<col key="yes" def="s72">Tag</col>
 		<col def="S255">Data</col>
+		<row><td>AZReport.exe</td><td/></row>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>AlwaysInstall</td></row>
 		<row><td>PROJECT_ASSISTANT_FEATURES</td><td>NonSelectable</td></row>
 	</table>
@@ -2059,17 +2061,17 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>AZReport.Primary_output</td><td/><td/><td>_E1A12E58_694F_4DB6_A4C0_E7A1ADC65CD3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>AZReport.exe</td><td/><td/><td>_BC60C6E6_77D6_4519_904C_44441F4A60EF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>AZReport.vshost.exe</td><td/><td/><td>_EB27ABD3_72A8_4028_BAAC_662EB455CE36_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>EntityFramework.dll</td><td/><td/><td>_61E308AD_EC2B_4654_963B_1B977FEBE052_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ICSharpCode.SharpZipLib.dll</td><td/><td/><td>_90E77869_9505_4E2D_8EDD_8CAC1F7950A3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AZReport.exe</td><td/><td/><td>_816C1A94_5BF6_416F_9239_EF795F737306_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AZReport.vshost.exe</td><td/><td/><td>_B68F2258_1EEB_47BA_B4DE_04C5DE1FC820_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>EntityFramework.dll</td><td/><td/><td>_C8C17534_0D4B_4470_94B4_6A81232DE30D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ICSharpCode.SharpZipLib.dll</td><td/><td/><td>_B6C34AD8_014B_4BF4_B11C_0127368E0903_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_F9FBFFE0_4BD1_47AF_AC07_A3F0F2F8626C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>NPOI.OOXML.dll</td><td/><td/><td>_6D3FF8F1_B476_4E42_A516_ED9B044130C3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>NPOI.OpenXml4Net.dll</td><td/><td/><td>_C294BAEA_E649_4F25_AFA3_A71044EAAC80_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>NPOI.OpenXmlFormats.dll</td><td/><td/><td>_CF27B64B_A4AF_4503_8AA2_CAFBB2FC3ECC_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>NPOI.dll</td><td/><td/><td>_E94FCAA5_8F9F_4524_8AE5_38B96D4C111E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Ninject.dll</td><td/><td/><td>_513F6BE2_6E67_4954_88F8_AB73E649EE80_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_81152F4B_99B0_4B9F_9B71_F47AF5D4F57F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NPOI.OOXML.dll</td><td/><td/><td>_4827F63F_DCCB_422D_B224_17A4994B35BE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NPOI.OpenXml4Net.dll</td><td/><td/><td>_E43233DD_F3D5_4692_B2E6_9CCC70098ADF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NPOI.OpenXmlFormats.dll</td><td/><td/><td>_D7D6299B_F916_4FB0_87FB_92DF86607865_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NPOI.dll</td><td/><td/><td>_8FD21DC4_919D_4B16_BC32_24FB8DE6B6CC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Ninject.dll</td><td/><td/><td>_20554758_37AF_4871_BE90_79A23E5AE413_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -3501,6 +3503,8 @@
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>1134815574</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>LAUNCH~1.EXE|Launch AZReport.exe</td><td>0</td><td/><td>1134797174</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>LAUNCH~1.EXE|Launch AZReport.vshost.exe</td><td>0</td><td/><td>1134797174</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>LAUNCH~1.EXE|Launch AZReport.exe</td><td>0</td><td/><td>472105709</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>LAUNCH~1.EXE|Launch AZReport.vshost.exe</td><td>0</td><td/><td>472105709</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>1134815574</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>1134815574</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>1134815574</td></row>
@@ -3900,6 +3904,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>AZReport.exe_B67C748C3EC0460C9DD603A293F154F3.exe</td><td/><td>&lt;VSSolutionFolder&gt;\AZReport\azshop.ico</td><td>0</td></row>
+		<row><td>AZReport.vshost.ex_D61388D90B974EAF9CD17685B666EDD2.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4481,8 +4487,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>FileKey1</td><td>AZReport.exe</td><td/><td>thinhn_1_thinhnguyen</td><td>2</td></row>
-		<row><td>FileKey2</td><td>AZReport.exe</td><td/><td>setupa_1_setupazreport</td><td>2</td></row>
+		<row><td>AZReport.exe</td><td>AZReport.exe</td><td/><td>setupa_1_setupazreport</td><td>2</td></row>
+		<row><td>AZReport.vshost.exe</td><td>AZReport.vshost.exe</td><td/><td>setupa_1_setupazreport</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4568,6 +4574,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>AZReport.exe</td><td>setupa_1_setupazreport</td><td>##IDS_SHORTCUT_DISPLAY_NAME3##</td><td>AZReport.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AZReport.exe_B67C748C3EC0460C9DD603A293F154F3.exe</td><td>0</td><td>1</td><td>DEBUG</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>AZReport.vshost.exe</td><td>setupa_1_setupazreport</td><td>##IDS_SHORTCUT_DISPLAY_NAME4##</td><td>AZReport.vshost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AZReport.vshost.ex_D61388D90B974EAF9CD17685B666EDD2.exe</td><td>0</td><td>1</td><td>DEBUG</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

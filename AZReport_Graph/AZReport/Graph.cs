@@ -49,10 +49,12 @@ namespace AZReport
             if (mode == 1)
             {
                 drawQuantity();
+                label1.Text = "Quantity";
             }
             else
             {
                 drawEfficiency();
+                label1.Text = "Efficiency";
             }
         }
 
@@ -72,14 +74,27 @@ namespace AZReport
                 chart1.Series[index].XValueType = ChartValueType.DateTime;
                 List<Sale> saleResult = _iSaleService.GetQuantity(_minDate, _maxDate, code);
                 var timesetting = _iTimeSettingService.GetAll().ToList().FirstOrDefault();
+                if (timesetting == null)
+                    timesetting = new TimeSetting { time = new DateTime(2015, 8, 3, 6, 0, 0) };
                 var time1 = timesetting.time;
                 var freq = _iReportService.GetItemFreq(_minDate, _maxDate, time1, code);
                 var item = _iProgramService.FindItem(code);
                 foreach (var i in saleResult)
                 {
                     var amount = Convert.ToInt32(item.Price) * i.Quantity;
-                    var totalTime = freq[index].Freq * (Convert.ToDateTime(item.Duration).Minute + Convert.ToDateTime(item.Duration).Second / 60.0); 
-                    chart1.Series[index].Points.AddXY(i.Date, amount/totalTime);
+                    var totalTime = 0.0;
+                    if (freq.Count() > 0)
+                    {
+                        totalTime = freq[index].Freq * (Convert.ToDateTime(item.Duration).Minute + Convert.ToDateTime(item.Duration).Second / 60.0);
+                    }
+                    if (totalTime != 0.0)
+                    {
+                        chart1.Series[index].Points.AddXY(i.Date, amount / totalTime);
+                    }
+                    else
+                    {
+                        chart1.Series[index].Points.AddXY(i.Date, 0);
+                    }
                 }
                 index++;
             }

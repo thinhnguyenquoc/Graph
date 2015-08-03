@@ -48,8 +48,23 @@ namespace AZReport
             _iReportService = iReportService;
             _iLevelService = iLevelService;
             _iTimeSettingService = iTimeSettingService;
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker2.Format = DateTimePickerFormat.Custom;
+            dateTimePicker3.Format = DateTimePickerFormat.Custom;
+            dateTimePicker4.Format = DateTimePickerFormat.Custom;            
+            dateTimePicker6.Format = DateTimePickerFormat.Custom;
+            dateTimePicker7.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.CustomFormat = "dd-MM-yyyy";
+            dateTimePicker1.CustomFormat = "dd-MM-yyyy";
+            dateTimePicker2.CustomFormat = "dd-MM-yyyy";
+            dateTimePicker3.CustomFormat = "dd-MM-yyyy";
+            dateTimePicker4.CustomFormat = "dd-MM-yyyy";
+            dateTimePicker6.CustomFormat = "dd-MM-yyyy";
+            dateTimePicker7.CustomFormat = "dd-MM-yyyy";
+
             dateTimePicker5.Format = DateTimePickerFormat.Time;
             dateTimePicker5.ShowUpDown = true;
+
             var all = _iProgramService.GetAll().ToList();
             start = DateTime.Today;
             end = DateTime.Today;
@@ -57,19 +72,19 @@ namespace AZReport
             reportEnd = DateTime.Today;
             culture = new System.Globalization.CultureInfo("fr-FR", true);
             var levelList = _iLevelService.GetAll().ToList();
-            var a = levelList.Where(x => x.Name == "A").FirstOrDefault();
+            var a = levelList.Where(x => x.Name == "A").OrderByDescending(x=>x.UpdateDate).FirstOrDefault();
             if (a != null && a.Begin.HasValue) { 
                 textBox4.Text = a.Begin.Value.ToString("N", CultureInfo.CreateSpecificCulture("en-US"));
                 textBox7.Text = a.End.Value.ToString("N", CultureInfo.CreateSpecificCulture("en-US"));
-            
-                var b = levelList.Where(x => x.Name == "B").FirstOrDefault();
+
+                var b = levelList.Where(x => x.Name == "B").OrderByDescending(x => x.UpdateDate).FirstOrDefault();
                 textBox5.Text = b.Begin.Value.ToString("N", CultureInfo.CreateSpecificCulture("en-US"));
                 textBox8.Text = b.End.Value.ToString("N", CultureInfo.CreateSpecificCulture("en-US"));
-                var c = levelList.Where(x => x.Name == "C").FirstOrDefault();
+                var c = levelList.Where(x => x.Name == "C").OrderByDescending(x => x.UpdateDate).FirstOrDefault();
                 textBox6.Text = c.Begin.Value.ToString("N", CultureInfo.CreateSpecificCulture("en-US"));
                 textBox9.Text = c.End.Value.ToString("N", CultureInfo.CreateSpecificCulture("en-US"));
             }
-            var timesetting = _iTimeSettingService.GetAll().ToList().FirstOrDefault();
+            var timesetting = _iTimeSettingService.GetAll().OrderByDescending(x=>x.UpdateDate).FirstOrDefault();
             if (timesetting != null)
             {
                 dateTimePicker5.Value = timesetting.time;
@@ -89,6 +104,7 @@ namespace AZReport
             comboBox1.Items.Add(item1);
             comboBox1.Items.Add(item2);
             comboBox1.SelectedIndex = 0;
+            mode = 1;
         }
 
         public class ComboboxItem
@@ -374,7 +390,7 @@ namespace AZReport
                 {
                     string file = openFileDialog1.FileName;
                     textBox1.Text = file;
-                    using (FileStream pr = new FileStream(file, FileMode.Open, FileAccess.Read))
+                    using (FileStream pr = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                     {
                         if (file.Contains(".xlsx"))
                         {
@@ -408,7 +424,7 @@ namespace AZReport
                 {
                     string file = openFileDialog2.FileName;
                     textBox2.Text = file;
-                    using (FileStream pr = new FileStream(file, FileMode.Open, FileAccess.Read))
+                    using (FileStream pr = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                     {
                         if (file.Contains(".xlsx"))
                         {
@@ -490,16 +506,16 @@ namespace AZReport
                 cell1.SetCellValue("MÃ CHƯƠNG TRÌNH");
                 ICell cell2 = row3.CreateCell(2);
                 cell2.SetCellValue("CHƯƠNG TRÌNH");
-                ICell cell3 = row3.CreateCell(3);
-                cell3.SetCellValue("DURATION");
-                ICell cell4 = row3.CreateCell(4);
+                //ICell cell3 = row3.CreateCell(3);
+                //cell3.SetCellValue("DURATION");
+                ICell cell4 = row3.CreateCell(3);
                 cell4.SetCellValue("CATEGORY");
-                ICell cell5 = row3.CreateCell(5);
-                cell5.SetCellValue("GIÁ SẢN PHẨM");
-                ICell cell6 = row3.CreateCell(6);
+                //ICell cell5 = row3.CreateCell(5);
+                //cell5.SetCellValue("GIÁ SẢN PHẨM");
+                ICell cell6 = row3.CreateCell(4);
                 cell6.SetCellValue("Ghi chú");
                 var tempStart = start;
-                var k = 7;
+                var k = 5;
                 while (DateTime.Compare(tempStart, end) <= 0)
                 {
                     ICell cellk = row3.CreateCell(k);
@@ -521,22 +537,22 @@ namespace AZReport
                         cell_temp1.SetCellValue(item.Code);
                         ICell cell_temp2 = row_temp.CreateCell(2);
                         cell_temp2.SetCellValue(item.Name);
-                        ICell cell_temp3 = row_temp.CreateCell(3);
-                        DateTime time1 = DateTime.Today;
-                        time1 = time1.AddMinutes(time.Minute).AddSeconds(time.Second);
-                        cell_temp3.SetCellValue(time1);
-                        ICellStyle style = wb.CreateCellStyle();
-                        cell_temp3.CellStyle = style;
-                        IDataFormat dataFormatCustom = wb.CreateDataFormat();
-                        cell_temp3.CellStyle.DataFormat = dataFormatCustom.GetFormat("mm:ss");
-                        ICell cell_temp4 = row_temp.CreateCell(4);
+                        //ICell cell_temp3 = row_temp.CreateCell(3);
+                        //DateTime time1 = DateTime.Today;
+                        //time1 = time1.AddMinutes(time.Minute).AddSeconds(time.Second);
+                        //cell_temp3.SetCellValue(time1);
+                        //ICellStyle style = wb.CreateCellStyle();
+                        //cell_temp3.CellStyle = style;
+                        //IDataFormat dataFormatCustom = wb.CreateDataFormat();
+                        //cell_temp3.CellStyle.DataFormat = dataFormatCustom.GetFormat("mm:ss");
+                        ICell cell_temp4 = row_temp.CreateCell(3);
                         cell_temp4.SetCellValue(item.Category);
-                        ICell cell_temp5 = row_temp.CreateCell(5);
-                        cell_temp5.SetCellValue(item.Price);
-                        ICell cell_temp6 = row_temp.CreateCell(6);
+                        //ICell cell_temp5 = row_temp.CreateCell(5);
+                        //cell_temp5.SetCellValue(item.Price);
+                        ICell cell_temp6 = row_temp.CreateCell(4);
                         cell_temp6.SetCellValue(item.Note);
                         var tempStart1 = start;
-                        var k1 = 7;
+                        var k1 = 5;
                         var sales = quantityViewModel.Where(x=> x.Code == item.Code).FirstOrDefault();
                         while (DateTime.Compare(tempStart1, end) <= 0)
                         {
@@ -569,7 +585,7 @@ namespace AZReport
                     sheet.AutoSizeColumn(l);
                 }
 
-                using (FileStream stream = new FileStream(name, FileMode.Create, FileAccess.Write))
+                using (FileStream stream = new FileStream(name, FileMode.Create, FileAccess.Write, FileShare.ReadWrite))
                 {
                     wb.Write(stream);
                     stream.Close();
@@ -594,7 +610,7 @@ namespace AZReport
                 {
                     string file = openFileDialog3.FileName;
                     textBox3.Text = file;
-                    using (FileStream pr = new FileStream(file, FileMode.Open, FileAccess.Read))
+                    using (FileStream pr = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                     {
                         if (file.Contains(".xlsx"))
                         {
@@ -633,7 +649,7 @@ namespace AZReport
                         if (row.GetCell(0) == null || row.GetCell(0).NumericCellValue == 0)
                             break;
                         sale.Code = row.GetCell(1).StringCellValue.ToString();
-                        for (int k = 7; k < proSheet.GetRow(2).LastCellNum; k++)
+                        for (int k = 5; k < proSheet.GetRow(2).LastCellNum; k++)
                         {
                             sale.Quantity = row.GetCell(k) != null ? Convert.ToInt32(row.GetCell(k).NumericCellValue) : 0;
                             sale.Date = DateTime.Parse(proSheet.GetRow(2).GetCell(k).StringCellValue.ToString(), culture, System.Globalization.DateTimeStyles.AssumeLocal);
@@ -678,7 +694,7 @@ namespace AZReport
                 createItemList(itemListSheet, reportStart, reportEnd);
                 ISheet timeTableSheet = wb.GetSheetAt(0);
                 createTimeTable(timeTableSheet, reportStart, reportEnd);
-                using (FileStream stream = new FileStream(name, FileMode.Create, FileAccess.Write))
+                using (FileStream stream = new FileStream(name, FileMode.Create, FileAccess.Write, FileShare.ReadWrite))
                 {
                     wb.Write(stream);
                     stream.Close();
@@ -713,7 +729,7 @@ namespace AZReport
                 dayHeader.SetCellValue(startDayTem.ToString("ddd"));
                 startDayTem = startDayTem.AddDays(1);
             }
-            var timesetting = _iTimeSettingService.GetAll().ToList().FirstOrDefault();
+            var timesetting = _iTimeSettingService.GetAll().OrderByDescending(x => x.UpdateDate).FirstOrDefault();
             var time1 = timesetting.time;
             var result = _iReportService.GetProductivity(new DateTime(startDay.Year, startDay.Month, startDay.Day, 0, 0, 0), new DateTime(endDay.Year, endDay.Month, endDay.Day, 23, 59, 59));
             var quantityList = _iReportService.GetQuantity(new DateTime(startDay.Year, startDay.Month, startDay.Day, 0, 0, 0), new DateTime(endDay.Year, endDay.Month, endDay.Day, 23, 59, 59));
@@ -805,7 +821,7 @@ namespace AZReport
                 tempDate = tempDate.AddDays(1);
             }
             #endregion
-            var timesetting = _iTimeSettingService.GetAll().ToList().FirstOrDefault();
+            var timesetting = _iTimeSettingService.GetAll().OrderByDescending(x => x.UpdateDate).FirstOrDefault();
             int beginHour = timesetting.time.Hour;
             int index1 = 4;
             for (int p = beginHour; p < 24; p++)
@@ -984,51 +1000,27 @@ namespace AZReport
             try
             {
                 var levelList = _iLevelService.GetAll().ToList();
-                var a = levelList.Where(x => x.Name == "A").FirstOrDefault();
-                if (a != null)
-                {
-                    a.Begin = (int)Convert.ToDouble(textBox4.Text);
-                    a.End = (int)Convert.ToDouble(textBox7.Text);
-                    _iLevelService.Update(a);
-                }
-                else
-                {
-                    a = new Level();
-                    a.Name = "A";
-                    a.Begin = (int)Convert.ToDouble(textBox4.Text);
-                    a.End = (int)Convert.ToDouble(textBox7.Text);
-                    _iLevelService.Create(a);
-                }
-                var b = levelList.Where(x => x.Name == "B").FirstOrDefault();
-                if (b != null)
-                {
-                    b.Begin = (int)Convert.ToDouble(textBox5.Text);
-                    b.End = (int)Convert.ToDouble(textBox8.Text);
-                    _iLevelService.Update(b);
-                }
-                else
-                {
-                    b = new Level();
-                    b.Name = "B";
-                    b.Begin = (int)Convert.ToDouble(textBox5.Text);
-                    b.End = (int)Convert.ToDouble(textBox8.Text);
-                    _iLevelService.Create(b);
-                }
-                var c = levelList.Where(x => x.Name == "C").FirstOrDefault();
-                if (c != null)
-                {
-                    c.Begin = (int)Convert.ToDouble(textBox6.Text);
-                    c.End = (int)Convert.ToDouble(textBox9.Text);
-                    _iLevelService.Update(c);
-                }
-                else
-                {
-                    c = new Level();
-                    c.Name = "C";
-                    c.Begin = (int)Convert.ToDouble(textBox6.Text);
-                    c.End = (int)Convert.ToDouble(textBox9.Text);
-                    _iLevelService.Create(c);
-                }
+               
+                var a = new Level();
+                a.Name = "A";
+                a.UpdateDate = DateTime.Now;
+                a.Begin = (int)Convert.ToDouble(textBox4.Text);
+                a.End = (int)Convert.ToDouble(textBox7.Text);
+               
+                var b = new Level();
+                b.Name = "B";
+                b.UpdateDate = DateTime.Now;
+                b.Begin = (int)Convert.ToDouble(textBox5.Text);
+                b.End = (int)Convert.ToDouble(textBox8.Text);
+                _iLevelService.Create(b);
+               
+                var c = new Level();
+                c.Name = "C";
+                c.UpdateDate = DateTime.Now;
+                c.Begin = (int)Convert.ToDouble(textBox6.Text);
+                c.End = (int)Convert.ToDouble(textBox9.Text);
+                _iLevelService.Create(c);
+               
                 _iLevelService.Save();
                 var successForm = new SuccessForm();
                 successForm.ShowDialog();
@@ -1049,15 +1041,17 @@ namespace AZReport
         {
             try
             {
-                var timesetting = _iTimeSettingService.GetAll().ToList().FirstOrDefault();
+                var timesetting = _iTimeSettingService.GetAll().OrderByDescending(x => x.UpdateDate).FirstOrDefault();
                 if (timesetting != null)
                 {
                     timesetting.time = dateTimePicker5.Value;
+                    timesetting.UpdateDate = DateTime.Now;
                     _iTimeSettingService.Update(timesetting);
                 }
                 else
                 {
                     timesetting = new TimeSetting();
+                    timesetting.UpdateDate = DateTime.Now;
                     timesetting.time = dateTimePicker5.Value;
                     _iTimeSettingService.Create(timesetting);
                 }
@@ -1162,6 +1156,16 @@ namespace AZReport
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            mode = Convert.ToInt32(comboBox1.SelectedValue);
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
         {
             mode = Convert.ToInt32(comboBox1.SelectedValue);
         }

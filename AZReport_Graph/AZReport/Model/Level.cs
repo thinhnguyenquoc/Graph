@@ -18,5 +18,6 @@ namespace AZReport.Model
         public string Name { get; set; }
         public Nullable<int> Begin { get; set; }
         public Nullable<int> End { get; set; }
+        public DateTime UpdateDate { get; set; }
     }
 }
